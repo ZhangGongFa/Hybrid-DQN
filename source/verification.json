@@ -1,0 +1,71 @@
+{
+  "configurations": [
+    {
+      "market": "US",
+      "horizon": 5,
+      "days": 1624,
+      "records": 325,
+      "milliseconds": 5711
+    },
+    {
+      "market": "US",
+      "horizon": 10,
+      "days": 1624,
+      "records": 163,
+      "milliseconds": 2556
+    },
+    {
+      "market": "US",
+      "horizon": 21,
+      "days": 1624,
+      "records": 78,
+      "milliseconds": 1197
+    },
+    {
+      "market": "US",
+      "horizon": 63,
+      "days": 1624,
+      "records": 26,
+      "milliseconds": 635
+    },
+    {
+      "market": "VN",
+      "horizon": 5,
+      "days": 1624,
+      "records": 325,
+      "milliseconds": 2418
+    },
+    {
+      "market": "VN",
+      "horizon": 10,
+      "days": 1624,
+      "records": 163,
+      "milliseconds": 1010
+    },
+    {
+      "market": "VN",
+      "horizon": 21,
+      "days": 1624,
+      "records": 78,
+      "milliseconds": 506
+    },
+    {
+      "market": "VN",
+      "horizon": 63,
+      "days": 1624,
+      "records": 26,
+      "milliseconds": 191
+    }
+  ],
+  "checks": [
+    "8 cấu hình thị trường/kỳ hạn",
+    "Trọng số không âm và tổng bằng 100%",
+    "NAV khớp lợi nhuận sau chi phí",
+    "Turnover, HHI và chi phí nhất quán",
+    "Benchmark cố định giữa hồ sơ/kỳ hạn",
+    "Lợi nhuận và drawdown với chuỗi biết trước",
+    "Thường niên hóa dữ liệu ngày",
+    "Số liệu nghiên cứu và KTC",
+    "HTML độc lập không phụ thuộc mạng"
+  ]
+}
